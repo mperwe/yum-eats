@@ -7,10 +7,10 @@ const TopNav = () =>{
      <div className='flex items-center' >
      <div className='cursor-pointer' >
             <AiOutlineMenu size={25}/>
-    </div>Yum
-           <span> Eats </span>
-    <h1>
-
+    </div>
+           
+    <h1 className='text-2xl sm:text-3xl lg:text-4xl'>Yum
+    <span> Eats </span>
     </h1>
     </div>
     </div>

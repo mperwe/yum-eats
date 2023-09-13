@@ -1,6 +1,6 @@
 import React from 'react'
 import { AiOutlineMenu, AiOutlineSearch, AiOutlineClose, AiFillTag } from 'react-icons/ai'
-
+import {BsFillCartFill, BsPerson} from 'react-icons/bs'
 const TopNav = () => {
   return (
     <div className='max-w-[1520 px]mx-auto flex justify-between items-center p-4'>
@@ -18,14 +18,14 @@ const TopNav = () => {
         </div>
       </div>
       <div className='bg-gray-200 rounded-full flex items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px]'>
-        <AiOutlineSearch size={50} />
+        <AiOutlineSearch size={25} />
         <input className='bg-transparent p-2 w-full focus:outline-none'
           type='text'
           placeholder='search meals'
         />
       </div>
         <button className='bg-orange-700 text-white hidden md:flex items-center py-2 rounded-full'>
-          Cart
+         <BsFillCartFill size={20}/> Cart
         </button>
     </div>
   )

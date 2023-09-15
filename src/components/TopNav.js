@@ -44,7 +44,7 @@ const TopNav = () => {
           >
             < AiOutlineClose onClick={() => setSideNav(!sideNav)}size={25}
             className='absolute right-4 top-4 cursor-pointer'/>
-            
+            <h2 className='text-2xl p-4'>Yum <span className=' text-orange - 70o font-bold'>Eats</span> </h2>
           </div>
           </div>
   )

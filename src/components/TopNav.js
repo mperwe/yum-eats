@@ -3,7 +3,7 @@ import { AiOutlineMenu, AiOutlineSearch, AiOutlineClose, AiFillTag } from 'react
 import { BsFillCartFill, BsPerson } from 'react-icons/bs'
 
 const TopNav = () => {
-  const [sideNav, setSideNav] = useState(false)
+  const [sideNav, setSideNav] = useState(true)
   console.log (sideNav);
   return (
     <div className='max-w-[1520 px]mx-auto flex justify-between items-center p-4'>
@@ -43,11 +43,10 @@ const TopNav = () => {
         }
           >
             < AiOutlineClose onClick={() => setSideNav(!sideNav)}size={25}
-            className='absolue' right-4 top-4 cursor-pointer/>
+            className='absolute right-4 top-4 cursor-pointer'/>
             
           </div>
           </div>
   )
 }
-
 export default TopNav

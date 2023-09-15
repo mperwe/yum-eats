@@ -10,7 +10,7 @@ import { FaGoogleWallet } from 'react-icons/fa'
 import { MdHelp, MdOutlineFavorite} from 'react-icons/md'
 
 const TopNav = () => {
-  const [sideNav, setSideNav] = useState(true);
+  const [sideNav, setSideNav] = useState(false);
   console.log(sideNav);
   return (
     <div className='max-w-[1520 px]mx-auto flex justify-between items-center p-4'>
@@ -39,7 +39,9 @@ const TopNav = () => {
       </button>
       {
         sideNav ? (
-          <div className='bg-black/60 fixed w-full h-screen z-10 top-0 left-0' />
+          <div className='bg-black/60 fixed w-full h-screen z-10 top-0 left-0'
+          onClick={() => setSideNav(!sideNav)}
+          />
         ) : ("")
       }
       <div
@@ -75,7 +77,7 @@ const TopNav = () => {
                 className='mr-4 text-white bg-black rounded-full' /> My Favorite
             </li>
           </ul>
-
+ 
 
           <ul className='flex flex-col p-4 text-gray-900'>
             <li className='text-xl py-4 flex'>

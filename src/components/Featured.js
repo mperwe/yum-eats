@@ -1,10 +1,19 @@
 import React,{useState} from 'react'
-
+import { BsChevronCompactLeft, BsChevronCompactRight  } from 'react-icons/bs'
 const Featured  = () => {
     const sliders = [
             {
                 url: "foodmaterials\food1.jpg"
             },
+
+            {
+                url: "foodmaterials\food1.jpg"
+            },
+            
+            {
+                url: "foodmaterials\food1.jpg"
+            },
+            
             
     ]
     const [currentIndex, setCurrentIndex] = useState(0)
@@ -13,6 +22,8 @@ const Featured  = () => {
        <div className=' w-full h-full rounded-2xl bg-center bg-cover duration-500'
        style={{backgroundImage: 'url(${sliders}[currentIndex].url})'}}
        />
+       <div className='absolute top-[50%] -translate-x-0 traslate-y-[50%] right-5 text-2xl 
+       rounded-full p-2 bg-orange-700 text-white cursor-pointer' />
     </div>
   )
 }

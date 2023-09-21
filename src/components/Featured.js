@@ -45,8 +45,6 @@ const Featured = () => {
         <BsChevronCompactRight onClick={nextSlider} />
       </div>
       <div className='flex top-4 justify-center py-2'>
-       
-      </div>
       {
         sliders.map((sliderItems, slideIndex) => (
           <div
@@ -57,6 +55,8 @@ const Featured = () => {
           </div>
         ))
       }
+      </div>
+      
     </div>
   
   )

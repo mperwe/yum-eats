@@ -13,6 +13,8 @@ const Featured = () => {
     {
       url: 'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672672612/NetflixApp/ric_a4ewxo.jpg',
     },
+
+    
   ]
   const [currentIndex, setCurrentIndex] = useState(0)
   const prevSlider = () => {
@@ -50,7 +52,7 @@ const Featured = () => {
           <div
             key={slideIndex} 
             onClick={() => moveToNextSlide(slideIndex) }
-            className='text-2xl cursor-pointer'>
+            className='text-2xl cursor-pointer'> 
             <RxDotFilled />
           </div>
         ))

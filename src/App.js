@@ -1,6 +1,7 @@
 import Delivery from "./components/Delivery";
 import Featured from "./components/Featured";
 import TopNav from "./components/TopNav";
+import TopPick from "./components/TopPick";
 
 function App() {
   return (
@@ -8,8 +9,10 @@ function App() {
       <TopNav/>
       <Featured/>
       <Delivery/>
+      <TopPick/>
     </div>
   );
 }
 
 export default App;
+  

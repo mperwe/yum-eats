@@ -7,7 +7,7 @@ function App() {
       <TopNav/>
       <Featured/>
       <Delivery/>
-     
+      <TopPicks/>
     </div>
   );
 }

@@ -15,7 +15,7 @@ const TopPicks = () => {
                         <div className='absolute w-full h-full bg-black/50 rounded-3xl text-white'>
                         <p className='px-2'>{item.title}</p>
                         </div>
-                        <img className='h-[200px] w-full object-cover rounded-3xl cursor-pointer hover:scale-105 ease-out duration-300'
+                        <img className='h-[100px] w-full object-cover rounded-3xl cursor-pointer hover:scale-105 ease-out duration-300'
                         src={item.img}/>
                      </div>
         

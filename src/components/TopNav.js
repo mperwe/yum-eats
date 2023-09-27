@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
-import { 
-        AiOutlineMenu, 
-        AiOutlineSearch, 
-        AiOutlineClose,  }
-      from 'react-icons/ai';
+import {
+  AiOutlineMenu,
+  AiOutlineSearch,
+  AiOutlineClose,
+}
+  from 'react-icons/ai';
 import { BsFillCartFill, BsPerson } from 'react-icons/bs';
 import { TbTruckReturn } from 'react-icons/tb'
 import { FaGoogleWallet } from 'react-icons/fa'
-import { MdHelp, MdOutlineFavorite} from 'react-icons/md'
+import { MdHelp, MdOutlineFavorite } from 'react-icons/md'
 
 const TopNav = () => {
   const [sideNav, setSideNav] = useState(false);
@@ -40,7 +41,7 @@ const TopNav = () => {
       {
         sideNav ? (
           <div className='bg-black/60 fixed w-full h-screen z-10 top-0 left-0'
-          onClick={() => setSideNav(!sideNav)}
+            onClick={() => setSideNav(!sideNav)}
           />
         ) : ("")
       }
@@ -77,7 +78,7 @@ const TopNav = () => {
                 className='mr-4 text-white bg-black rounded-full' /> My Favorite
             </li>
           </ul>
- 
+
 
           <ul className='flex flex-col p-4 text-gray-900'>
             <li className='text-xl py-4 flex'>

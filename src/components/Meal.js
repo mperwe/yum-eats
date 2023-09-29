@@ -12,8 +12,12 @@ const Meal = () => {
                mealData.map((item)=>(
                 <div className='border-none hover:scale-105 duration-300'>
                     <img src= {item.image} 
+                    alt={item.name}
                     className='w-full h-[200px] object-cover rounded-lg'
                     />
+                    <div className='flex justify-between py-2 px-4'>
+                        <p>{item.price}</p>
+                    </div>
                 </div> 
                ))
             }

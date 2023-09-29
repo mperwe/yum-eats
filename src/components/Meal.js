@@ -16,6 +16,7 @@ const Meal = () => {
                     className='w-full h-[200px] object-cover rounded-lg'
                     />
                     <div className='flex justify-between py-2 px-4'>
+                        <p>{item.name}</p>
                         <p className='bg-orange-700 h-18 rounded-full -mt-10 text-white py-4 px-2 border-8 font-bold' >{item.price}</p>
                     </div>
                 </div> 

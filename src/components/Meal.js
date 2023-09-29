@@ -21,8 +21,8 @@ const Meal = () => {
                         <p className='bg-orange-700 h-18 rounded-full -mt-10 text-white py-4 px-2 border-8 font-bold' >{item.price}</p>
                     </div>
 
-                    <div className='pl-2 py-4'>
-                        <p>View More <ArrowSmRightIcon className='w-5 ml-2'/> </p>
+                    <div className='pl-2 py-4 -mt-7'>
+                        <p className='flex items-center text-indigo-500'>View More <ArrowSmRightIcon className='w-5 ml-2'/> </p>
 
                     </div>
 

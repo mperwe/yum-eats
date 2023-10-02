@@ -1,8 +1,9 @@
-import React from 'react' 
+import React, {useState} from 'react' 
 import {ArrowSmRightIcon} from '@heroicons/react/outline'
 import { mealData } from '../data/data'
 
 const Meal = () => {
+    const [foods, setFoods] = useState(mealData)
   return (
     <div className='max-w-[1520px] m-auto px-4 py-12'>
         <h1 className='text-orange-500 font-bold text-2xl text-center py-2'> 
@@ -18,7 +19,7 @@ const Meal = () => {
         </div>
          <div className='grid md:grid-col-2 sm:grid-cols-1 lg:grid-cols-4 gap-6'>
             {
-               mealData.map((item)=>(
+               foods.map((item)=>(
                 <div className='border-none hover:scale-105 duration-300'>
                     <img src= {item.image} 
                     alt={item.name}

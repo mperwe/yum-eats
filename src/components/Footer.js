@@ -32,19 +32,19 @@ const Footer = () => {
                 <div>
                     <h6 className='font-medium text-[#9b9b9b]'>Location</h6>
                     <ul>
-                        <li className='py-2 text-sm'>New York</li>
-                        <li className='py-2 text-sm'>USA</li>
-                        <li className='py-2 text-sm'>India</li>
-                        <li className='py-2 text-sm'>Canada</li>
+                        <li className='py-2 text-sm'>Germany</li>
+                        <li className='py-2 text-sm'>Porland</li>
+                        <li className='py-2 text-sm'>France</li>
+                        <li className='py-2 text-sm'>China</li>
                     </ul>
                 </div>
                 <div>
                     <h6 className='font-medium text-[#9b9b9b]'>Location</h6>
                     <ul>
-                        <li className='py-2 text-sm'>New York</li>
-                        <li className='py-2 text-sm'>USA</li>
-                        <li className='py-2 text-sm'>India</li>
-                        <li className='py-2 text-sm'>Canada</li>
+                        <li className='py-2 text-sm'>Uganda</li>
+                        <li className='py-2 text-sm'>Nigeria</li>
+                        <li className='py-2 text-sm'>South Africa</li>
+                        <li className='py-2 text-sm'>Egypt</li>
                     </ul>
                 </div>
                 <div/>
